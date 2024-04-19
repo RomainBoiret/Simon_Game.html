@@ -1,12 +1,10 @@
 # Simon_Game.html
 
-Simon Game est une implémentation web du jeu de mémoire classique Simon, où les joueurs doivent se souvenir et répéter une séquence de couleurs. Ce projet est réalisé en HTML, CSS et JavaScript.
-
 [![GitHub stars](https://img.shields.io/github/stars/RomainBoiret/Simon_Game.html.svg)](https://github.com/RomainBoiret/Simon_Game.html/stargazers)
-[![GitHub views](https://img.shields.io/github/views/RomainBoiret/Simon_Game.html.svg)](https://github.com/RomainBoiret/Simon_Game.html/traffic)
 [![GitHub open issues](https://img.shields.io/github/issues/RomainBoiret/Simon_Game.html.svg)](https://github.com/RomainBoiret/Simon_Game.html/issues)
 [![GitHub license](https://img.shields.io/github/license/RomainBoiret/Simon_Game.html.svg)](https://github.com/RomainBoiret/Simon_Game.html/blob/main/LICENSE)
 
+Simon Game est une implémentation web du jeu de mémoire classique Simon, où les joueurs doivent se souvenir et répéter une séquence de couleurs. Ce projet est réalisé en HTML, CSS et JavaScript.
 
 <!-- ![Capture d'écran du jeu Simon](./images/simonGame-screenshot.png) -->
 
