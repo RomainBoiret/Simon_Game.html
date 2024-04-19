@@ -6,7 +6,7 @@
 
 Simon Game est une implémentation web du jeu de mémoire classique Simon, où les joueurs doivent se souvenir et répéter une séquence de couleurs. Ce projet est réalisé en HTML, CSS et JavaScript.
 
-<!-- ![Capture d'écran du jeu Simon](./images/simonGame-screenshot.png) -->
+![Capture d'écran du jeu Simon](./images/Simon-logo.png)
 
 ## Auteur
 
