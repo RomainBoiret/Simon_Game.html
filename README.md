@@ -2,14 +2,10 @@
 
 Simon Game est une implémentation web du jeu de mémoire classique Simon, où les joueurs doivent se souvenir et répéter une séquence de couleurs. Ce projet est réalisé en HTML, CSS et JavaScript.
 
-<p align="left">
-    <a href="https://github.com/romainboiret/Simon_Game.html/stargazers">
-        <img alt="stars" title="Stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/romainboiret/Simon_Game.html?color=yellow&style=for-the-badge&logo=star"/></a>
-    <a href="https://github.com/romainboiret/Simon_Game.html/traffic">
-        <img alt="clones" title="Clones on GitHub" src="https://custom-icon-badges.demolab.com/github/clones/romainboiret/Simon_Game.html?color=orange&style=for-the-badge&logo=git"/></a>
-    <a href="https://github.com/romainboiret/Simon_Game.html/traffic">
-        <img alt="views" title="Views on GitHub" src="https://custom-icon-badges.demolab.com/github/views/romainboiret/Simon_Game.html?color=blue&style=for-the-badge&logo=github"/></a>
-</p>
+[![GitHub stars](https://img.shields.io/github/stars/RomainBoiret/Simon_Game.html.svg)](https://github.com/RomainBoiret/Simon_Game.html/stargazers)
+[![GitHub views](https://img.shields.io/github/views/RomainBoiret/Simon_Game.html.svg)](https://github.com/RomainBoiret/Simon_Game.html/traffic)
+[![GitHub open issues](https://img.shields.io/github/issues/RomainBoiret/Simon_Game.html.svg)](https://github.com/RomainBoiret/Simon_Game.html/issues)
+[![GitHub license](https://img.shields.io/github/license/RomainBoiret/Simon_Game.html.svg)](https://github.com/RomainBoiret/Simon_Game.html/blob/main/LICENSE)
 
 
 <!-- ![Capture d'écran du jeu Simon](./images/simonGame-screenshot.png) -->
