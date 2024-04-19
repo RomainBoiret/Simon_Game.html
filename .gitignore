@@ -3,6 +3,21 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Personnalise
+*.sln
+*.exe
+*.ipch
+*.vcxproj
+*.vcxproj.*
+*.db*
+*.opendb
+*.vsidx
+*Debug/
+*x64/
+*.vs/
+*.json
+.vscode/*
+
 # User-specific files
 *.rsuser
 *.suo
