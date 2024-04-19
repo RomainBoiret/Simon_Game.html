@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--noir-charbon);
+    color: var(--blanc-pur);
+}
+
+/* Section Design */
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem 4.2%;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.colors-container {
+    position: block;
+    width: 45rem;
+    height: 45rem;
+    background: var(--noir-anthracite);
+    border: 10px solid var(--noir-anthracite);
+    border-radius: 25px;
+    transition: transform 1s ease;
+}
+
+.colors-container .color {
+    width: 60px;
+    height: 60px;
+    border: 10px solid var(--noir-anthracite);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.colors-container .color:active {
+    transform: scale(0.7);
+}
+
+.btn {
+    width: 20rem;
+    height: 5rem;
+    color: var(--blanc-pur);
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#start {
+    display: block;
+    background: var(--rose-vif);
+    border-bottom: 5px solid var(--rose2);
+    transition: .1s;
+}
+
+#start:active {
+    background: var(--rose2);
+    border-bottom: none;
+}
+
+#reset {
+    display: none;
+    background: var(--rouge);
+    border-bottom: 5px solid var(--rouge2);
+    transition: .1s;
+}
+
+#reset:active {
+    background: var(--rouge2);
+    border-bottom: none;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Footer Design */
+
+.footer {
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4.2%;
+}
+
+.footer p {
+    color: var(--white);
+    font-size: 1.3rem;
+}
+
+.footer-iconTop {
+    width: 50px;
+    height: 50px;
+    background: url('../images/github-logo.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.footer-iconTop:hover {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}

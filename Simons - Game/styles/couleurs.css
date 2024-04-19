@@ -1,0 +1,104 @@
+/* Palette de couleurs */
+
+:root {
+    /* Interface */
+    --noir-charbon: #1A1A1A;
+    --noir-jais: #242424;
+    --noir-profond: #333333;
+    --noir-de-jais: #0D0D0D;
+    --noir-anthracite: #141414;
+
+    --blanc-pur: #FFFFFF;
+    --gris-clair: #CCCCCC;
+    --argent: #C0C0C0;
+    --gris-moyen: #808080;
+    --jaune-vif: #FFFF00;
+
+    --rose-vif: #FF69B4;
+
+    /* Couleurs pour le jeu */
+    --rouge: #FF3333;
+    --vert: #33FF33;
+    --bleu: #3366FF;
+    --jaune: #FFFF66;
+    --orange: #FF9933;
+    --rose: #FF66CC;
+    --violet: #9966FF;
+    --cyan: #66FFFF;
+    --magenta: #FF66FF;
+
+    --rouge2: #FF6666;
+    --vert2: #66FF66;
+    --bleu2: #6699FF;
+    --jaune2: #FFFF99;
+    --orange2: #FFB366;
+    --rose2: #FF99CC;
+    --violet2: #B366FF;
+    --cyan2: #99FFFF;
+    --magenta2: #FF99FF;
+}
+
+/* Couleurs des cases */
+
+.c1 { background: var(--rose); }
+.c1:active { background: var(--rose2); }
+.color0 {
+    background: var(--rose2); 
+    transform: scale(0.7);
+}
+
+.c2 { background: var(--bleu); }
+.c2:active { background: var(--bleu2); }
+.color1 {
+    background: var(--bleu2); 
+    transform: scale(0.7);
+}
+
+.c3 { background: var(--jaune); }
+.c3:active { background: var(--jaune2); }
+.color2 {
+    background: var(--jaune2); 
+    transform: scale(0.7);
+}
+
+.c4 { background: var(--orange); }
+.c4:active { background: var(--orange2); }
+.color3 {
+    background: var(--orange2); 
+    transform: scale(0.7);
+}
+
+.c5 { background: var(--violet); }
+.c5:active { background: var(--violet2); }
+.color4 {
+    background: var(--violet2); 
+    transform: scale(0.7);
+}
+
+.c6 { background: var(--cyan); }
+.c6:active { background: var(--cyan2); }
+.color5 {
+    background: var(--cyan2); 
+    transform: scale(0.7);
+}
+
+.c7 { background: var(--rouge); }
+.c7:active { background: var(--rouge2); }
+.color6 {
+    background: var(--rouge2); 
+    transform: scale(0.7);
+}
+
+.c8 { background: var(--vert); }
+.c8:active { background: var(--vert2); }
+.color7 {
+    background: var(--vert2); 
+    transform: scale(0.7);
+}
+
+.c9 { background: var(--magenta); }
+.c9:active { background: var(--magenta2); }
+.color8 {
+    background: var(--magenta2); 
+    transform: scale(0.7);
+}
