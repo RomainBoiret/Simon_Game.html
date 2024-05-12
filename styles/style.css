@@ -38,6 +38,24 @@ h1 {
     font-weight: 600;
 }
 
+.stats {
+    width: 45rem;
+    font-size: 3rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+}
+
+#actLevel {
+    display: none;
+    transition: .1s;
+}
+
+#maxScore {
+    display: none;
+    transition: .1s;
+}
+
 .colors-container {
     position: block;
     width: 45rem;

@@ -12,6 +12,8 @@ let container = document.getElementById('container');
 let colorButtons = document.querySelectorAll('.color');
 let startButton = document.getElementById('start');
 let resetButton = document.getElementById('reset');
+let actLevel = document.getElementById('actLevel');
+let maxScore = document.getElementById('maxScore');
 
 // Ajouter des gestionnaires d'événements de clic pour chaque bouton de couleur
 colorButtons.forEach((button, index) => {
@@ -57,6 +59,9 @@ function colorClick(color)
     if (NEGATIF < color && color < MAX_COLOR)
     {
         playerSequence.push(color);
+
+        score++;
+        maxScore.innerHTML = score + " / " + level;
     }
 
     if (playerSequence.length == sequence.length)
@@ -72,8 +77,7 @@ function checkSequence()
     {
         if (playerSequence[i] != sequence[i])
         {
-            spinGame();
-            toggleButton();
+            gameOver();
             return;
         }
     }
@@ -85,11 +89,13 @@ function checkSequence()
 function nextLevel()
 {
     // À implémenter : Passer au niveau suivant en mettant à jour les variables et en générant une nouvelle séquence
-    score++;
+    score = 0;
     level++;
+    
     playerSequence = [];
 
-    console.log("Niveau:" + level);
+    actLevel.innerHTML = "Level: " + level;
+    maxScore.innerHTML = score + " / " + level;
 
     setTimeout(() => {
         generateSequence();
@@ -123,11 +129,29 @@ function resetGame()
 
     // À implémenter : Réinitialiser les variables et l'interface pour recommencer une nouvelle partie
     sequence = []; // Initialiser sequence comme un tableau vide
-    level = 0;
+
+    level = 1;
+    actLevel.innerHTML = "Level: " + level;
+
     score = 0;
+    maxScore.innerHTML = score + " / " + level;
+
+    actLevel.style.display = "block";
+    maxScore.style.display = "block";
+
     playerSequence = []; // Initialiser playerSequence comme un tableau vide
 
     console.log("Game reseted");
+}
+
+// Function to gameOver
+function gameOver()
+{
+    spinGame();
+    toggleButton();
+
+    actLevel.style.display = "none";
+    maxScore.style.display = "none";
 }
 
 // Function to enable a button
@@ -177,8 +201,7 @@ function toggleButton()
 
 reset.addEventListener('click', () => {
 
-    // Appeler une fonction pour gérer le clic sur le bouton de couleur
-    spinGame();
+    gameOver();
 });
 
 function spinGame()
